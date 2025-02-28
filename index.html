@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Andres Diaz - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Andres Diaz
+          <div class="contact_info">
+            <img src="https://static.vecteezy.com/system/resources/previews/020/009/614/non_2x/email-and-mail-icon-black-free-png.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          andres.diaz.social@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="https://pngimg.com/d/phone_PNG48972.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +52 322 193 9613
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+					<a class="topmenu" href="#skills">Skills</a>
+					<a class="topmenu" href="#projects">Projects</a>
+					<a class="topmenu" href="#recommendations">Recommendations</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://media.licdn.com/dms/image/v2/D4D12AQEQ91QyjYccMQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1721174742372?e=2147483647&v=beta&t=77qfS1_SDRvCTpYp_5C4pyVrBj4Qwo-mvU7xjZ5gVtY" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Andres Diaz! <img src="https://static-00.iconduck.com/assets.00/waving-hand-emoji-250x256-rmssjx13.png" width="60px"/>
+          </h1>
+          <p>
+             I am a Software Engineering student with a strong foundation in programming, application development, and
+ technical problem-solving. Proficient in languages such as Java and Python, with experience in academic
+ and personal projects that demonstrate skills in algorithms, data structures, and web development.
+          </p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>
+
+        <div class="skill">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"/>
+          <h6>JavaScript</h6>
+          <p>1 year experience</p>
+        </div>
+
+				<div class="skill">
+          <img src="https://brandslogos.com/wp-content/uploads/images/large/java-logo-1.png"/>
+          <h6>Java</h6>
+          <p>3 years experience</p>
+        </div>
+
+				<div class="skill">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"/>
+          <h6>Python</h6>
+          <p>1 year experience</p>
+        </div>
+
+				<div class="skill">
+          <img src="https://cdn.freebiesupply.com/logos/large/2x/spring-3-logo-png-transparent.png"/>
+          <h6>Spring Framework</h6>
+          <p>1 year experience</p>
+        </div>
+
+				<div class="skill">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png"/>
+          <h6>Kotlin</h6>
+          <p>1 year experience</p>
+        </div>
+
+
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3 ><a class="project-title" href="https://github.com/AndresDays/OnFit_Android_App/blob/main/README.md" target="_blank">Gym Application</h3></a>
+            <ul>
+              <li>Developed a mobile application for a school project in Kotlin for Android devices, designed to manage gym trainers and users. The app allows administrators to register, view, and update trainer information, while regular users have restricted access to view available data.</li>
+            </ul>
+          </div>
+          <hr>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Andres is a very quick learner and quickly grasps key concepts of Web development.
+          He got a great attitude & he is an excellent team player.
+          He takes initiative within a team and has potentials to lead the team.
+          <span>&#8221;</span>
+        </div>
+
+				<div class="recommendation">
+          <span>&#8220;</span>
+          Andres has demonstrated great initiative in self-learning, specializing in software development with Kotlin and Android, while also exploring artificial intelligence for his graduation project. His ability to quickly acquire new knowledge makes him a valuable asset to any team.
+          <span>&#8221;</span>
+        </div>
+
+				<div class="recommendation">
+          <span>&#8220;</span>
+          Andres has worked on projects that combine software and artificial intelligence, applying his knowledge to develop practical solutions in the medical sector. His interest in AI reflects a forward-thinking mindset, aiming to improve clinical and diagnostic processes.
+          <span>&#8221;</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+			</svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img class="icon" src="./checkmark.svg"/>
+      <h3>Thanks for leaving a recommendation!</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
