@@ -17,6 +17,9 @@ body {
 	padding-top: 2cm;
 	padding-bottom: 2cm;
 	height: 5mm;
+	position: sticky;
+	top: 0; /* Agregar esto */
+	z-index: 1000;
 }
 
 .topmenu {
@@ -34,9 +37,23 @@ body {
 	text-decoration: none;
 }
 
+.dark{
+	max-height: 30px;
+	padding: 6px;
+	border-radius: 50%;
+	margin-top: 15px;
+}
+.dark:hover img{
+	height: 35px;
+}
+
+.dark:hover{
+	cursor: pointer;
+}
+
 .topdiv {
 	display: flex;
-	justify-content: flex-start;
+	justify-content: flex-end;
 	padding-right: 1cm;
 }
 
@@ -96,6 +113,9 @@ h2 {
 .about-me {
 	display: flex;
 	align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
 }
 
 #about-me h1 {
@@ -103,7 +123,10 @@ h2 {
 	margin-top: 90px;
 	color: #7600bc;
 }
-
+.about-me-info{
+	margin: 20px;
+	min-width: 500px;
+}
 #about-me p {
 	font-size: 25px;
 	color: rgb(128, 128, 128);
@@ -111,8 +134,8 @@ h2 {
 }
 
 .profile_image {
-	width: 550px;
-	height: fit-content;
+	width: 450px;
+	height: auto;
 	vertical-align: middle;
 	margin: 5px;
 }
@@ -259,11 +282,6 @@ h2 {
 	height: 150px
 }
 
-.recommendation span {
-	color: #7600bc;
-	font-size: 20px;
-	font-family: 'Times New Roman', Times, serif;
-}
 
 /* Scroll to Top Button */
 
@@ -370,3 +388,12 @@ button:hover {
 	text-align: center;
 	cursor: pointer;
 }
+
+@media (max-width: 768px) {
+	#about-me {
+	  flex-direction: column;
+	}
+	.about-me-info{
+		min-width: 90%;
+	}
+  }
