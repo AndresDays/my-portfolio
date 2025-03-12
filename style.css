@@ -25,16 +25,18 @@ body {
 	padding: 20px;
 	font-size: 20px;
 	text-decoration: none;
+	max-width: 90%;
 }
 
 .topmenu:hover {
 	color: white;
 	font-weight: bolder;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 .topdiv {
-	float: right;
+	display: flex;
+	justify-content: flex-start;
 	padding-right: 1cm;
 }
 
@@ -198,6 +200,37 @@ h2 {
 .project-card li {
 	font-size: 20px;
 	margin-left: 30px;
+}
+/* Certifications*/
+
+.certifications-container{
+	margin-top: 30px;
+	margin-left: 60px;
+}
+
+.certification-card{
+	margin: 0 15px 15px 30px;
+	padding-bottom: 5px;
+}
+
+.certification-card h3 {
+	font-size: 25px;
+	margin-left: 30px;
+}
+
+.certification-card li {
+	font-size: 20px;
+	margin-left: 30px;
+}
+
+.certification-title{
+	text-decoration: none;
+	color: black;
+}
+
+.certification-title:hover {
+	font-weight: bolder;
+	color: blue;
 }
 
 /* Recommendations */
