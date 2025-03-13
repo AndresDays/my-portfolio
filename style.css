@@ -5,6 +5,8 @@ html{
 body {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	margin: 0;
+	box-sizing: border-box;
+	width: 100vw;
 }
 
 /* Navigation Bar */
@@ -13,7 +15,7 @@ body {
 	background-color: #343a40;
 	padding-bottom: 1cm;
 	margin-left: -1cm;
-	margin-right: -1cm;
+	margin-right: -1.1cm;
 	margin-top: -1cm;
 	padding-top: 1cm;
 	padding-bottom: 1cm;
@@ -174,10 +176,13 @@ h2 {
 	height: 45px;
 	align-items: center;
 }
-
+.skill h6{
+	font-size: 20px;
+	margin-top: 25px;
+}
 .skills h6 {
 	align-items: center;
-	font-size: 30px;
+	font-size: 20px;
 	margin-block-start: 8px;
 	margin-block-end: 5px;
 	font-weight: bold;
@@ -185,7 +190,7 @@ h2 {
 
 .skills p {
 	align-items: center;
-	font-size: 15px;
+	font-size: 25px;
 	color: gray;
 	margin-block-start: 5px;
 	margin-block-end: 5px;
