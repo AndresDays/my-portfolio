@@ -33,7 +33,7 @@ let esNegro = false;
     if (esNegro) {
       document.body.style.backgroundColor = "white";
       document.body.style.color = "black";
-	  document.getElementById('home').style.backgroundColor = '#308af1';
+	  document.getElementById('home').style.backgroundColor = '#343a40';
 	  document.getElementById('changeColor').style.backgroundColor = '';
 	  document.getElementById('darkTitle').style.color = 'black';
 	  let anchors = document.querySelectorAll(".certification-title");
