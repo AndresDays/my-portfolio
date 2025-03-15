@@ -106,16 +106,19 @@ h2 {
 
 .container {
 	display: flex;
+	text-align: center;
+	justify-content: center;
 }
 
 /* About Me */
 
 .about-me {
 	display: flex;
-	align-items: center;
+    align-items: center;
   justify-content: center;
   gap: 2rem;
   padding: 2rem;
+
 }
 
 #about-me h1 {
@@ -127,11 +130,14 @@ h2 {
 	margin: 20px;
 	min-width: 500px;
 	text-align: center;
+	justify-content: center;
 }
 #about-me p {
 	font-size: 25px;
 	color: rgb(128, 128, 128);
 	margin-top: -.5cm;
+	text-align: center;
+    justify-content: center;
 }
 
 .profile_image {
@@ -405,10 +411,11 @@ button:hover {
 }
 
 footer{
-	background-color: #343a40; /* bg-dark: fondo oscuro */
-  color: white; /* text-white: texto blanco */
-  text-align: center; /* text-center: texto centrado */
-	padding: 0.2rem;
+	background-color: #343a40;
+  color: white;
+  text-align: center;
+	padding: 1.4rem;
+	width: 100vw;
 }
 
 @media (max-width: 768px) {
